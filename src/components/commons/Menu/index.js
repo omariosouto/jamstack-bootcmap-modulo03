@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Logo } from '../../../theme/Logo';
 import Text from '../../foundation/Text';
 import { Button } from '../Button';
@@ -45,3 +46,7 @@ export default function Menu({ onCadastrarClick }) {
     </MenuWrapper>
   );
 }
+
+Menu.propTypes = {
+  onCadastrarClick: PropTypes.func.isRequired,
+};
