@@ -34,3 +34,9 @@ async headers() {
     - CDN
     - Cache
     - ...
+
+- Cache
+  - https://nextjs.org/blog/next-9-0-7
+    - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding
+
+- https://vercel.com/docs/edge-network/caching
